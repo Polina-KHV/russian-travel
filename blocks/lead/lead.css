@@ -1,0 +1,25 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 984px;
+  align-items: center;
+  text-align: center;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1152px) {
+  .lead {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .lead {
+    width: 100%;
+    margin: 0;
+  }
+}

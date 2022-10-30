@@ -1,0 +1,38 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  background-image: url(../../images/cover-image.png);
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  max-width: 1184px;
+  height: 740px;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+}
+
+@media screen and (max-width: 1152px) {
+  .cover {
+    max-width: 100vw;
+    width: 100vw;
+    height: 640px;
+    margin: 0 -48px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .cover {
+    height: 480px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .cover {
+    height: 200px;
+  }
+}
