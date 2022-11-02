@@ -11,9 +11,7 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    font-weight: 400;
     max-width: 288px;
     margin: 0 16px;
-    z-index: 1;
   }
 }

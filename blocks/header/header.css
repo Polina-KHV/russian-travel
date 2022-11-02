@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  height: 52px;
+  min-height: 52px;
   margin: 0 48px;
 }
 
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 544px) {
   .header {
-    height: 42px;
+    min-height: 42px;
     margin: 0 16px;
   }
 }

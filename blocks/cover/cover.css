@@ -5,26 +5,26 @@
   background-position: center;
   background-size: cover;
   max-width: 1184px;
-  height: 740px;
+  min-height: 740px;
   margin: 0 48px;
   font-family: 'Inter', Arial, sans-serif;
 }
 
 @media screen and (max-width: 1152px) {
   .cover {
-    height: 640px;
+    min-height: 640px;
     margin: 0;
   }
 }
 
 @media screen and (max-width: 896px) {
   .cover {
-    height: 480px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 720px) {
   .cover {
-    height: 200px;
+    min-height: 200px;
   }
 }
