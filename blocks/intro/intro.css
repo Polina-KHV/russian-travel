@@ -1,6 +1,7 @@
 .intro {
   font-family: 'Inter', Arial, sans-serif;
   color: #fff;
+  /* Если заменю width на max-width текст не выровнится по блоку lead, как в макете. */
   width: 984px;
   margin: 0 auto;
 }
