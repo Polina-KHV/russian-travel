@@ -1,14 +1,15 @@
 .intro {
   font-family: 'Inter', Arial, sans-serif;
   color: #fff;
-  /* Если заменю width на max-width текст не выровнится по блоку lead, как в макете. */
-  width: 984px;
+  max-width: 984px;
+  width: 100%;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1152px) {
   .intro {
-    width: auto;
+    max-width: none;
     margin: 0;
     padding-left: 48px;
   }
